@@ -5,6 +5,6 @@ class WeatherAppHomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(appBar: AppBar(title: Text('Weather app'), centerTitle: true));
   }
 }
